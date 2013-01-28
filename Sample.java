@@ -1,8 +1,8 @@
 package com.java;
-public class Sample {
+public class One {
 
 
-Sample (){
+One (){
 System.out.println("this is constructor");
 }
 
@@ -12,7 +12,7 @@ System.out.println("this is display()");
 
 
 public static void main(String args[]){
-Sample s = new Sample();
+One s = new One();
 s.display();
 }
 }
